@@ -8,25 +8,53 @@
 </head>
 <body>
     <div id="julekortDiv">
+        <class id="overskrift">
         <h2> Lag ditt eget julekort</h2>
         <p>Overskrift:</p>
         <input type="text" id="navn" placeholder="Overskrift" />
+        </class>
+
+        <class id="tekst">
         <p>Tekst:</p>
-        <textarea id="tekst" placeholder="Tekst"></textarea>
-        <p>Frå: </p>
+        <textarea id="tekst" placeholder="Tekst"></textarea> 
+        </class>
+
+        <class id="frå">
+        <p>Frå: </p> 
         <input type="text" id="fra" placeholder="Frå" />
+        </class>
+
+        <class id="bilde">
         <p>Bilde: </p>
         <select id="bilde">
             <option value="images/julenisse.png">Julenisse</option>
             <option value="images/juletre.png">Juletre</option>
             <option value="images/reinsdyr.png">Reinsdyr</option>
         </select>
-        <button id="lagKort">Lag kort</button>
+        </class>
+
+        <class id="skriftfarge">
+        <p>Skriftfarge: </p>
+        <input type="color" id="textColor" value="#000000">
+        </class>
+
+        <class id="button">
+        <button onclick="generateCard()" id="lagKort">Lag kort</button>
+        </class>
+
+        
+        
         
     </div>
-</body>
-</html>
+    
+    <div>
+    <class id="kort">
         
+        </class>
+    </div>
+
+    <script src="js/index.js"></script>
+
 
 
 

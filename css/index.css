@@ -26,3 +26,18 @@ p {
     width: 500px;
     height: 600px;
 }
+
+#julekortDiv { 
+    display: show;
+}
+
+#kort {
+    display: none;
+    background-color: #371212;
+    border: 3px solid #317825;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+}
