@@ -1,4 +1,4 @@
-h2 { 
+h2 {
     color: #317825;
     font-size: 20px;
     padding: 30px;
@@ -14,30 +14,20 @@ p {
     color: #317825;
     font-size: 17px;
     font-weight: bold;
+}
+
+.julekortDiv {
+    background-color: #371212;
+    border: 3px solid #317825;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
     
 }
 
-#julekortDiv {
-    background-color: #371212;
-    border: 3px solid #317825;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 20px;
-    width: 500px;
-    height: 600px;
+.button {
+    padding: 40px;
 }
 
-#julekortDiv { 
-    display: show;
-}
-
-#kort {
-    display: none;
-    background-color: #371212;
-    border: 3px solid #317825;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 20px;
-    width: 500px;
-    height: 600px;
-}

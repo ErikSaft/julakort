@@ -3,60 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Julekort</title>
 </head>
 <body>
-    <div id="julekortDiv">
-        <class id="overskrift">
-        <h2> Lag ditt eget julekort</h2>
-        <p>Overskrift:</p>
-        <input type="text" id="navn" placeholder="Overskrift" />
-        </class>
+    <div class="julekortDiv">
+        <div class="overskrift">
+            <h2> Lag ditt eget julekort</h2>
+            <p>Overskrift:</p>
+            <input type="text" id="navn" placeholder="Overskrift" />
+        </div>
 
-        <class id="tekst">
-        <p>Tekst:</p>
-        <textarea id="tekst" placeholder="Tekst"></textarea> 
-        </class>
+        <div class="tekst">
+            <p>Tekst:</p>
+            <textarea id="tekst" placeholder="Tekst"></textarea> 
+        </div>
 
-        <class id="frå">
-        <p>Frå: </p> 
-        <input type="text" id="fra" placeholder="Frå" />
-        </class>
+        <div class="frå">
+            <p>Frå: </p> 
+            <input type="text" id="fra" placeholder="Frå" />
+        </div>
 
-        <class id="bilde">
-        <p>Bilde: </p>
-        <select id="bilde">
-            <option value="images/julenisse.png">Julenisse</option>
-            <option value="images/juletre.png">Juletre</option>
-            <option value="images/reinsdyr.png">Reinsdyr</option>
-        </select>
-        </class>
+        <div class="bilde">
+            <p>Bilde:    <select class="bilde">
+                <option value="images/julenisse.png">Julenisse</option>
+                <option value="images/juletre.png">Juletre</option>
+                <option value="images/reinsdyr.png">Reinsdyr</option>
+            </select> </p>
+            
+        </div>
 
-        <class id="skriftfarge">
-        <p>Skriftfarge: </p>
-        <input type="color" id="textColor" value="#000000">
-        </class>
+        <div class="skriftfarge">
+            <p>Skriftfarge:   <input type="color" id="skriftfarge" value="#000000"> </p>
+            
+        </div>
 
-        <class id="button">
-        <button onclick="generateCard()" id="lagKort">Lag kort</button>
-        </class>
+        <div class="bgfarge">
+            <p>Bakgrunnsfarge:   <input type="color" id="bkfarge" value="#000000"> </p>
+            
+        </div>
 
+        <div class="button">
+            <button>Lag julekort</button>
+        </div>
         
-        
-        
-    </div>
     
-    <div>
-    <class id="kort">
-        
-        </class>
+    
     </div>
 
     <script src="js/index.js"></script>
-
-
-
-
 </body>
 </html>
