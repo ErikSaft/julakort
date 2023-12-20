@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+ 
     const lagKortButton = document.querySelector('.button button');
 
     lagKortButton.addEventListener('click', function () {
@@ -16,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
         kort.innerHTML = `
             <h2 style="color: ${skriftfarge}; font-size: 24px;">${overskrift}</h2>
             <img src="${valgtBilde}" alt="Valgt bilde" style="max-width: 100%; margin-top: 10px;">
-            <p style="font-size: 18px;">${tekst}</p>
-            <p style="font-size: 16px;"><strong>Frå:</strong> ${fra}</p>
+            <p style="color: ${skriftfarge}; font-size: 24px;">${tekst} </p>
+            <p style="color: ${skriftfarge}; font-size: 16px;"> <strong>Frå:</strong> ${fra}</p>
         `;
 
         // Stil kortet
@@ -25,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
         kort.style.border = '3px solid #317825';
         kort.style.borderRadius = '20px';
         kort.style.padding = '20px';
-        kort.style.width = '400px'; // Juster størrelsen etter ønske
+        kort.style.width = '500px'; 
+        kort.style.height = '600px';
         kort.style.margin = '0 auto';
         kort.style.maxWidth = '100%';
         kort.style.boxSizing = 'border-box';
